@@ -3,7 +3,7 @@
 // Globals (filled in by backend)
 var no_tab_mode = 1;
 var mermaid_enabled = 1;
-var toc_pane_div = "right_pane_content";
+var toc_pane_div = "";
 var dir_index_pane_div = "";
 var html_url_prefix = "/mhc1";
 var CONFIGURED_HTML_URL_PREFIX = "/mhc1";
@@ -13,7 +13,7 @@ var CONFIG_CLOSE_LEFT_PANE_IF_EMPTY = 0;
 var RELATIVE_PATHS = 0;
 var documentation_mode = 1;
 var tab_mode = !no_tab_mode;
-var gzip_hash = '146719631207558182367021585621009459630'                       // used to check whether the localStorage data is stale
+var gzip_hash = '256420609087585944338511850350488453292'                       // used to check whether the localStorage data is stale
 
 // global cache
 var fn_cache_ls_available = null;
