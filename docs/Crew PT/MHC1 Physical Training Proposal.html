@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+        <head>
+                <!-- Page information -->
+                <meta charset="UTF-8" />
+                <meta name="node_id" content="mhc1 physical training proposal">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                <link rel="shortcut icon" href="/mhc1/favicon.ico" />
+
+                <!-- Set title -->
+                <title>MHC1 Garden</title>
+
+                <!-- Includes -->
+                <script src="/mhc1/obs.html/static/obsidian_core.js"></script>
+<script src="/mhc1/obs.html/static/encoding.js"></script>
+<link rel="stylesheet" href="/mhc1/obs.html/static/master.css" />
+<script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({
+            'securityLevel': 'loose',
+            'theme': 'dark',
+            'themeVariables': {
+                    'darkMode': true,
+            }
+    });
+</script>
+<script>
+  MathJax = {
+    loader: {
+      load: [
+        '[tex]/action',
+        'output/chtml',
+        '[tex]/centernot'
+      ]
+    },
+    tex: {
+      inlineMath: [ ["\\(","\\)"] ],
+      displayMath: [ ["\\[","\\]"] ],
+      processEscapes: true,
+      processEnvironments: true,
+      packages: {'[+]': ['centernot']}
+    }
+  };
+</script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+<script src="/mhc1/obs.html/static/flexsearch.bundle.js"></script>
+<script src="/mhc1/obs.html/static/pako.js"></script>
+<script src="/mhc1/obs.html/static/search.js"></script>
+<script src="/mhc1/obs.html/static/dirtree.js"></script>
+
+
+
+
+                <!-- Onload tweaks -->
+                <script>
+                        const CURRENT_NODE = 'mhc1 physical training proposal';
+                        const HTML_URL_PREFIX = '/mhc1';
+                        const PAGE_DEPTH = 1;
+                </script>
+        </head>
+
+<body class="theme-obs-light">
+        <div id="antiflash" style="display: none;"></div>
+        <script>
+                document.getElementById('antiflash').style.display = 'block';
+        </script>
+        <div id="search-master-div">
+    <div id="search-slab" king_ramses="return the slaaab">
+            <div id="search-controls">
+                    <input id="search_string" placeholder="Type to search notes" type="text" />
+                    <div class="tooltip" style="display: none;">
+                        <input type="checkbox" id="hard_search" name="hard" />
+                        <span class="tooltiptext">Hard search (require exact match)</span>
+                    </div>
+                    <div id="search-results-box">
+                        <div id="search-results"></div>
+                    </div>
+                    <div id="search-instructions">
+                        <div class="prompt-instruction mobile">
+                            <button onclick="toggle_id('search-master-div');"><b>Close</b> Search </button>
+                        </div>
+                    </div>
+            </div>
+    </div>
+</div>
+
+<script>
+    document.getElementById("search-master-div").addEventListener('click', e => {
+            if(e.target !== e.currentTarget){
+                    return
+            }
+            toggle_id('search-master-div');
+    })
+    document.getElementById("search_string").addEventListener("input", function(event) {
+            setTimeout( () =>run_search('search_string', 'hard_search'), 100 );
+    }); 
+    document.getElementById("hard_search").addEventListener("click", function(event) {
+            setTimeout( () =>run_search('search_string', 'hard_search'), 100 );
+    });
+
+    window.addEventListener('keydown', e => {
+        if((e.key=='Escape'||e.key=='Esc'||e.keyCode==27)){
+            toggle_id('search-master-div');
+            return false;
+        } 
+    }, true);
+
+    function click_list_link(element){
+        element.parentElement.getElementsByTagName('a')[0].click()
+    }
+</script>
+
+        <div id="page_holder" class="flex_col">
+                <div id="header" class="header">
+    <div id="header_flex" class="flex_row">
+            <a href="/mhc1/index.html" id="homelink" title="Clear screen and go to homepage">MHC1 Garden</a>
+            <div id="menu_toggle_button" class="navbar-button requires_js" onclick="toggle_menu()">
+                    ≡
+            </div>
+            <div id="navbar" class="navbar requires_js">
+                    
+                    <div class="icon-tray">
+                            <div id="theme-button" class="theme-button requires_js" title="Change theme" onclick="toggle_theme_popup(this)">
+    T
+</div>
+<script>
+    function toggle_theme_popup(el){
+        // make theme button show that it's active by adding the .active class
+        toggle(el);
+
+        // show the theme selector
+        toggle_id('theme-popup')
+
+        let h2 = document.getElementById('header2')
+        if (h2){
+            let pu = document.getElementById('header2').getElementsByClassName('popup')[0];
+            toggle(pu);
+        }
+    }
+
+    function disable_theme_popup(){
+        disable_id('theme-button');
+
+        // show the theme selector
+        disable_id('theme-popup')
+
+        let h2 = document.getElementById('header2')
+        if (h2){
+            let pu = document.getElementById('header2').getElementsByClassName('popup')[0];
+            disable(pu);
+        }
+    }
+</script>
+                                    <div onclick="openSearch()" class="theme-button requires_js">
+            <img src = "/mhc1/obs.html/static/search.svg" alt="Search notes" title="Search notes" style="margin: 4px;"/>
+        </div>
+        <script>
+            function openSearch(){
+                // toggle search popup and continue with extra code if it is enabled this time
+                if (toggle_id('search-master-div')){
+                    // get input field and temporarily disable it
+                    let ss = document.getElementById('search_string');
+                    ss.value = 'Seach data initializing...';
+                    ss.readOnly = true; 
+
+                    // load search data if not yet done so
+                    setTimeout(function(){
+                        LoadSearchData()
+
+                        // clear input and put focus on it so that we can start typing immediately
+                        ss.value = '';
+                        ss.readOnly = false; 
+                        ss.focus()
+                        ss.select()
+                    }, 100);
+                }
+            }
+        </script>
+                                    <div class="graph_header_div requires_js">
+            <a id="graph_link" class="system-link" href="/mhc1/obs.html/graph/index.html?node=mhc1 physical training proposal" title="Open fullpage Graph">
+                    <img class="graph_header_div_svg" src = "/mhc1/obs.html/static/graph.svg" alt="Open fullpage Graph" style="margin: 2px; width: 17px;"/>
+            </a>
+        </div>
+                                    <div >
+            <a id="dirtree_link" class="system-link" href="/mhc1/obs.html/dir_index.html" title="View directory tree">
+                    <img src = "/mhc1/obs.html/static/dirtree.svg" style="width: 12px; padding: 4px;" alt="Directory tree link"/>
+            </a>
+        </div>
+                            <div>
+    <a href="/mhc1/obs.html/tags/index.html" title="Open tag view">
+            <img src = "/mhc1/obs.html/static/hashtag.svg" alt="RSS Feed link" style="width: 24px; margin-left: -2px; margin-top: -2px;"/>
+    </a>
+</div>
+                            
+                    </div>
+                    <div style="display: flex; flex-direction:column">
+                        <div id="left_pane_toggle_nav" class="left_pane_toggle_nav">Toggle Directory Tree Pane</div>
+                        <div id="right_pane_toggle_nav" class="right_pane_toggle_nav">Toggle Table of Contents Pane</div>
+                    </div>
+            </div>
+    </div>
+    <div class="popup" id="theme-popup">
+    <label for="cars">Theme </label>
+
+    <select name="theme" id="theme" onchange="set_theme(this.value)">
+      <option value="obs-light" selected="selected">obsidian-light</option>
+      <option value="obs-dark">obsidian-dark</option>
+    </select> 
+</div>
+</div>
+                <div class="flex_row">
+                        <div id="left_pane" class="left_pane active">
+    <div id="left_pane_fold_header" class="left_pane_fold_header fold_header">x</div>
+    <div id="left_pane_content" class="left_pane_content">
+            <div id="dirtree"><button id="folder-1" class="dir-button " onclick="toggle_dir(this.id)"><div class="file-icon"></div>Assets</button>
+<div id="folder-container-1" class="dir-container requires_js " path="/mhc1/Assets">
+	<ul class="dir-list">
+		<li><div class="file-icon non-md-file"></div><a class="" href="/mhc1/Assets/cucuzella-zones.png"  class="external-link">cucuzella-zones.png</a></li>
+		<li><div class="file-icon non-md-file"></div><a class="" href="/mhc1/Assets/sfra-curve.png"  class="external-link">sfra-curve.png</a></li>
+	</ul>
+</div>
+<button id="folder-2" class="dir-button active" onclick="toggle_dir(this.id)"><div class="file-icon"></div>Crew PT</button>
+<div id="folder-container-2" class="dir-container requires_js active" path="/mhc1/Crew PT">
+	<ul class="dir-list">
+		<li><div class="file-icon"></div><a class="" href="/mhc1/Crew PT/2 Mile Time Trial Plan.html"  >2 Mile Time Trial Plan</a></li>
+		<li><div class="file-icon"></div><a class="" href="/mhc1/Crew PT/Crew PT.html"  >Crew PT</a></li>
+		<li><div class="file-icon"></div><a class="active current_page_dirtree" href="/mhc1/Crew PT/MHC1 Physical Training Proposal.html"  >MHC1 Physical Training Proposal</a></li>
+	</ul>
+</div>
+<ul class="dir-list">
+	<li><div class="file-icon"></div><a class="" href="/mhc1/Site Issues.html"  >Site Issues</a></li>
+	<li><div class="file-icon"></div><a class="" href="/mhc1/index.html"  >index</a></li>
+</ul>
+</div>
+    </div>
+</div>
+                        <div class="container">
+                                <div class="content"><h1 id="mhc1-physical-training-proposal">MHC1 Physical Training Proposal</h1>
+<p>SPC Shoemaker in collaboration with SPC Hammack <br />
+v20241231   </p>
+<p>In this plan I present an actionable guide to PT programming for the crew that aligns with well known principals of physical training to make us stronger, faster, and more durable. At minimum we should run 3 workouts per week that respectively target Max Strength, Aerobic Fitness, and Work Capacity. For Strength &amp; Aerobic Fitness the crew should be divided into training groups based on measured ability for that particular domain.   </p>
+<h2 id="principals">Principals</h2>
+<ol>
+<li>The minimum allotted time for crew PT is 3h / week per Lt. Col. Riley.   </li>
+<li>The pairing of training stimulus followed by sufficient recovery yields physical improvement.   </li>
+<li>Progressive Overload training is how to developing Maximum Strength efficiently.   </li>
+<li>Endurance training at Aerobic Threshold effort is optimal for developing Aerobic Fitness.   </li>
+<li>Max Strength and Aerobic Fitness are the foundation of exceptional Work Capacity.<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup>   </li>
+<li>
+<p>All workouts must explicitly target one of the following domains of fitness:   </p>
+<ul>
+<li>Maximum Strength   </li>
+<li>Aerobic Fitness   </li>
+<li>Work Capacity   </li>
+</ul>
+</li>
+</ol>
+<p>While training will sometimes be uncomfortable to achieve a sufficient stimulus, no single workout should break off a crew member. When we PT in the morning we must keep fire ready for the day. Excessive fatigue, vomiting, and pushing through acute pain are to be avoided. Such max efforts must be reserved for infrequent tests (Type Out), competitions (Stand Down), or an exceptional situation in the field where an absolute max effort is justified by the danger of the situation.     </p>
+<h2 id="terms-defined">Terms Defined</h2>
+<ul>
+<li><strong>Progressive Overload</strong>: In strength training, this is the principal of adding more resistance over time in order to stimulate continued adaption and build strength efficiently.   </li>
+<li><strong>Aerobic Fitness</strong>: The body's ability to effectively supply oxygen to muscles during sustained exercise such as hiking, cutting line, running at a steady pace, etc. Also responsible for resetting the anaerobic energy system after a short explosive effort.   </li>
+<li><strong>Anaerobic Fitness</strong>: The body's ability to deliver short bursts of energy in the absence of oxygen. Examples include sprinting, HIIT, or moving heavy objects explosively.   </li>
+<li><strong>Aerobic Threshold</strong>: A sustained effort just above the "optimal endurance training zone" and below an anaerobic effort.<sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup> A rule of thumb is to run at the limit of nasal breathing. This idea is similar to "Zone 2" or Long Steady State training.   <ul>
+<li><img alt="" src="/mhc1/Assets/cucuzella-zones.png" />   </li>
+</ul>
+</li>
+<li><strong>Work capacity</strong>: "[T]he ability to recover quickly and use multiple muscle groups requiring your cardiovascular, musculoskeletal and central nervous system to work together efficiently".<sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup> This is critical for Wildland Firefighters who must perform dynamic physical tasks for prolonged periods.   </li>
+<li><strong>Stimulus-Fatigue-Recovery-Adaptation (SFRA) Theory</strong>: The key idea is that fatigue induced by a training stimulus <em>decreases</em> apparent performance in the short term. Only with adequate rest is an increase in physical ability (Supercompensation) achieved.<sup id="fnref:4"><a class="footnote-ref" href="#fn:4">4</a></sup> Adaptation does not require total rest, however. You can target different stimulus day to day. One total rest day / week is advisable.   <ul>
+<li><img alt="" src="/mhc1/Assets/sfra-curve.png" />   </li>
+</ul>
+</li>
+</ul>
+<h2 id="h_3-workout-types">3 Workout Types</h2>
+<p>Given that we are allotted 3h / week minimum for crew PT, it makes sense to run a workout on Monday / Wednesday / Friday. The three workouts are purposefully very different to provide specific stimulus for Strength, Aerobic Fitness and Work capacity respectively:   </p>
+<p><strong>Monday: Max Strength</strong> Specific lifting sessions will be designed by SPC Hammack and follow a cycle targeting Push, Pull, or Leg movements each week. Workouts will consist of 3 movements for 3-5 sets of 5-12 reps to optimize for Max Strength. Sufficient rest between sets to reset the body and maintain form is critical. For heavy dynamic movements, weight is assigned as a percentage of estimated 1 Repetition Maximum and should gradually increase overtime (Progressive Overload).   </p>
+<p><strong>Wednesday: Aerobic Fitness</strong> Primarily organized by SPC Shoemaker, and typically a run at Aerobic Threshold effort. This is a high tempo, yet sustainable pace. Runs beyond 30 minutes are ideal stimulus and should be executed with near even splits. Overtime we expect to see more speed / distance at the same intensity (Aerobic Adaptation). Alternatively we can do a hike, ERG row, stationary bike, or continuous basketball day.   </p>
+<p><strong>Friday: Work Capacity</strong> This is where we combine Max Strength &amp; Aerobic Fitness for an up-tempo workout that bleeds into Anaerobic effort. This can be circuit training, HIIT, Every Minute on the Minute, or an Indian Run. It is the least structured workout and is meant to be a group challenge that simulates the dynamic work we must do on the fire line.   </p>
+<p>The most fit members of the crew can easily incorporate the M/W/F workouts into their programming. For the crew member that does no PT beyond what is prescribed, we expect to still see improvement via "beginner gains". SPC Hammack's Push / Pull / Leg specific workouts will allow less experienced lifters to learn new lifts do their own strength sessions. Likewise runs prescribed at Aerobic Threshold pace will give lesser runners a reprieve from crew runs that are too fast, while still giving them ideal stimulus to improve.   </p>
+<h2 id="same-workout-different-stimulus-problem">Same Workout / Different Stimulus Problem</h2>
+<p>When organizing a PT session, it is simplest to assign the same workout to everyone. Given the variance in ability among the crew, this strategy violates Principal #6: <em>All workouts must explicitly target either Strength, Aerobic Fitness, or Work Capacity.</em> Why is this?   </p>
+<p>Let's say the crew is assigned a 4 mile run at 9'30" / mi pace. For the most capable runner on the crew, this pace is well below their Aerobic Threshold pace of 7'45" / mi. For the worst runner they will quickly exceed their aerobic limit and fall off the pace, despite giving their max effort. Both are receiving a sub-optimal stimulus in opposite directions. And for the crew member who went anaerobic, the stimulus is unproductive: The "toxic, acidic environment in the muscles [from high-intensity workouts] inhibit the aerobic development we seek."<sup id="fnref:5"><a class="footnote-ref" href="#fn:5">5</a></sup>   </p>
+<p>You can imagine a similar scenario for a strength workout with free weights: The strongest crew member can easily squat a barbell loaded with 250 lbs whereas an inexperienced lifter will risk injury by handling such weight. It's unproductive.   </p>
+<p>The worst possible result of overwhelming stimulus is over training or injury. This happens when the Stimulus-Fatigue (of SFRA Theory) compounds in the abscence of Recovery-Adaption such that P (Performance) degrades in the long term. We can avoid this.   </p>
+<h2 id="per-workout-teams">Per Workout Teams</h2>
+<p>A straight forward solution to the above problems is to create workout-specific "teams" based on measured ability.   </p>
+<p>Let's reframe the 4 mile crew run from above: We want the crew to run approximately 40 minutes at a pace that is close to their Aerobic Threshold. Let's split thew crew into Alpha, Bravo &amp; Charlie groups. Alpha will run at 8' / mi for 5 miles. Bravo will run at 9'30" / mi for 4 miles. Charlie will run at 11' / mi for 3.5 miles. The variance in distance / pace of each group allows us to roughly normalize the 40 minutes of aerobic training stimulus for everyone.   </p>
+<p>We can determine the running teams by collecting 2 mi time trial results. We can then calculate and assign Aerobic Threshold paces and test if they are appropriate with feedback and GPS tracking.   </p>
+<p>Similarly for strength sessions, we can assign A/B/C groups based on measured 1 Rep Max for dynamic lifts. Taking a percentage of that result allows us to determine the team's training weight for a given movement. We can employ Progressive Overload by increasing that percentage over time.   </p>
+<p>To ensure the training groups are split correctly and that assigned workouts are effective, we will need to constantly receive feedback and adjust. Maybe the training weight was too easy for an individual, and they should move up a group. Maybe the group as a whole has improved, and they are ready for a modest increase in weight. Within a group stronger individuals can bump up the reps so long as they are capable of completing all the assigned sets.   </p>
+<p>While the Strength and Aerobic Fitness sessions should be split into teams, I envision the Work Capacity workouts to be done together as a crew, doubling as a teamwork and morale building exercise.   </p>
+<h2 id="mt-hamilton-fitness-culture">Mt Hamilton Fitness Culture</h2>
+<p>For much of the crew the M/W/F programming is not enough to continue progressing. The frequency of stimulus isn't there so additional runs and lifts throughout the week would flesh out the training. To help people focus their efforts we can ask what their individual fitness goals are and check in with them periodically. Example goals could be to bench press one's body weight for 1 rep, run the 2 mile in 14 minutes, or do 1 rep of 1.5x bodyweight for the Back Squat, etc..   </p>
+<p>By hitting the three major workouts weekly, tailoring stimulus via workout teams, and promoting a culture of regular and purposeful training, we can become a more competitive, durable, and capable crew.   </p>
+<h2 id="plan-of-action">Plan of Action</h2>
+<ul>
+<li>Start the M/W/F workout cycle.   </li>
+<li>Create groups and plan workouts with available info.   </li>
+<li>Execute the <strong>1 Rep Max Day</strong> &amp; <strong>2 Mile Test Day</strong> to calculate training figures.   </li>
+<li>Continuously monitor and adjust programming based on individual and team progress / feedback.   </li>
+<li>Collect personal fitness goals. Periodically monitor progress.   </li>
+<li>Repeat the <strong>1 Rep Max Day</strong> and <strong>2 Mile Test Day</strong> every 3 months.   </li>
+</ul>
+<p><strong>1 Rep Max Day</strong>     </p>
+<ul>
+<li>Goal: Test individuals' 1 Rep Max as input for A/B/C training teams and computed training weight.   </li>
+<li>Training weight calculation:   <ul>
+<li>Take the 1 rep and multiply it by some percentage in the range of 50-80%.   </li>
+<li>For example a 1 Rep Max of 220lbs at 70% yields a training weight of ~150lbs.   </li>
+<li>The percentage will increase over time as the team adapts (Progressive Overload).   </li>
+</ul>
+</li>
+<li>
+<p>Procedure   </p>
+<ol>
+<li>Warm up specific to the movement   </li>
+<li>Coaching on the movement   </li>
+<li>
+<p>Break out into groups to test 1 Rep Max for:   </p>
+<ul>
+<li>Bench Press   </li>
+<li>Back Squat   </li>
+<li>(Hex Bar) Dead Lift    </li>
+</ul>
+</li>
+</ol>
+</li>
+</ul>
+<p><strong>2 Mile Test Day</strong>     </p>
+<ul>
+<li>Goal: Measure relative running ability as input for A/B/C training teams and computed Aerobic Threshold training pace.   </li>
+<li>Aerobic Threshold training pace calculation:   <ul>
+<li>Plug the 2 mile time into the Luke Humphrey Running Pace Calculator<sup id="fnref:6"><a class="footnote-ref" href="#fn:6">6</a></sup> and record the faster limit of the "Moderate" pace output.   </li>
+<li>For example a 14 minute 2 mile will yield a "Moderate" pace output of 9'10" / mi pace for the faster limit.   </li>
+</ul>
+</li>
+<li>
+<p>Procedure   </p>
+<ol>
+<li>1 mile warm up and dynamic stretches   </li>
+<li>Set up timers and course (ideally at a track)   </li>
+<li>Run 2 mi at max effort   </li>
+<li>Record times   </li>
+<li>Cool down   </li>
+</ol>
+</li>
+</ul>
+<h2 id="sample-workouts">Sample Workouts</h2>
+<p><strong>Max Strength</strong>: Push Day   </p>
+<ol>
+<li>Warm up   </li>
+<li>Emphasize rest between reps for quality sets, 2-3 minutes minimum   </li>
+<li>
+<p>Break out into A/B/C teams &amp; cycle through the following exercises:   </p>
+<ul>
+<li>4x 6-8 Barbell Bench Press   </li>
+<li>5x 8-12 Tricep push downs   </li>
+<li>4x 6-8 seated shoulder press   </li>
+</ul>
+</li>
+</ol>
+<p><strong>Aerobic Fitness</strong>: ~40 minute Aerobic Threshold Run      </p>
+<ol>
+<li>Dynamic warm up   </li>
+<li>Emphasize even pacing, stick with your team   </li>
+<li>
+<p>Break out into teams:   </p>
+<ul>
+<li>Alpha: Run at 8' / mi for 5 miles   </li>
+<li>Bravo: Run at  9'30" / mi for 4 miles   </li>
+<li>Charlie: Run at 11'00 / mi for 3.5 miles   </li>
+</ul>
+</li>
+<li>
+<p>Group stretch   </p>
+</li>
+</ol>
+<p><strong>Work Capacity</strong>: Every Minute On the Minute (EMOM)     </p>
+<ol>
+<li>Warm up   </li>
+<li>
+<p>EMOM for 20 minutes. For each minute do:   </p>
+<ul>
+<li>Basketball court out and back sprint   </li>
+<li>Alternate between push &amp; pull   <ul>
+<li>Push: 10x Push Up   </li>
+<li>Pull: 3x Pull Up or 5x Barbell Row   </li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Group stretch   </p>
+</li>
+</ol>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p>"Work Capacity Test" Brochure, United States Forest Service <a href="https://www.fs.usda.gov/sites/default/files/2023-03/Work-Capacity-Test-brochure.pdf" class="external-link">https://www.fs.usda.gov/sites/default/files/2023-03/Work-Capacity-Test-brochure.pdf</a>&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 0 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p><em>Run For Your Life: How to Run, Walk, and Move Without Pain or Injury</em>, Mark Cucuzzella, Chapter 7&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:3">
+<p>"What Is Your Work Capacity?", Stew Smith, Military.com, <a href="https://www.military.com/military-fitness/general-fitness/what-is-your-work-capacity" class="external-link">https://www.military.com/military-fitness/general-fitness/what-is-your-work-capacity</a>&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+<li id="fn:4">
+<p>"The Science and Practice of Periodization: A Brief Review", Anthony Turner, London Sport Institute, Middlesex University, <a href="http://instituteofmotion.com/wp-content/uploads/2021/01/The_Science_and_Practice_of_Periodization.pdf" class="external-link">http://instituteofmotion.com/wp-content/uploads/2021/01/The_Science_and_Practice_of_Periodization.pdf</a>&#160;<a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+<li id="fn:5">
+<p><em>Run For Your Life: How to Run, Walk, and Move Without Pain or Injury</em>, Mark Cucuzzella, Chapter 7&#160;<a class="footnote-backref" href="#fnref:5" title="Jump back to footnote 4 in the text">&#8617;</a></p>
+</li>
+<li id="fn:6">
+<p>Luke Humphrey Running Pace Calculator, <a href="https://lukehumphreyrunning.com/hmmcalculator/race_equivalency_calculator.php" class="external-link">https://lukehumphreyrunning.com/hmmcalculator/race_equivalency_calculator.php</a>&#160;<a class="footnote-backref" href="#fnref:6" title="Jump back to footnote 5 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div></div>
+<div class="note-footer">
+<div class="tags">
+<h2>Tags</h2>
+<ul>
+	<li><a class="backlink" href="/mhc1/obs.html/tags/crew-pt/index.html">crew-pt</a></li>
+</ul>
+</div>
+
+</div>
+<div class="graph requires_js ">
+    <div id="A337832768656384217586994753140603675898{level}" class="graph_div"></div>
+
+    <div class="graph-instructions" id="D337832768656384217586994753140603675898{level}">
+        Left-click: follow link, Right-click: select node, Scroll: zoom
+    </div>
+    
+    <div class="graph-button-row" style="display:flex;">
+        <button class="graph_button graph_show_button" id="B337832768656384217586994753140603675898{level}" level="{level}" note_temp_id="337832768656384217586994753140603675898" onclick="window.ObsHtmlGraph.run(this, '337832768656384217586994753140603675898', 'mhc1 physical training proposal');">
+            Show Graph
+        </button>
+        <button class="graph_button graph_type_button" id="C337832768656384217586994753140603675898{level}" style="flex:1" onclick="window.ObsHtmlGraph.switch_graph_type(this);">
+            2D
+        </button>
+    </div>
+</div>
+
+<script type="module">
+    if (window.ObsHtmlGraph == undefined){
+        import('/mhc1/obs.html/static/graph.js').then((Module) => {
+            window.ObsHtmlGraph = Module;
+            window.ObsHtmlGraph.arm_page(document.getElementById('page_holder'))
+        })
+    }
+</script>
+
+
+
+
+                                <!-- end content -->
+                        </div>
+                        <div class="container_filler">
+                        </div>
+                        <div id="right_pane" class="right_pane active">
+    <div id="right_pane_fold_header" class="right_pane_fold_header fold_header">x</div>
+    <div id="right_pane_content" class="right_pane_content">
+            
+    </div>
+</div>
+                </div>
+        </div>
+
+        <script>
+                function handle_toggle_side_bar(e){
+                        let header;
+                        let pane; 
+                        let target = e.target
+
+                        // switch out the navbar button click for a header click
+                        if (target.id == 'left_pane_toggle_nav'){
+                                target = document.getElementById('left_pane_fold_header')
+                        }
+                        else if (target.id == 'right_pane_toggle_nav'){
+                                target = document.getElementById('right_pane_fold_header')
+                        }
+
+                        // get header and pane
+                        if (target.classList.contains('fold_header')) {
+                                header = target;
+                                pane = target.parentElement;
+                        }
+                        else {
+                                pane = target;
+                                header = target.getElementsByClassName('fold_header')[0];
+                        }
+                        toggle_side_bar(pane, header, true)
+                        e.stopPropagation();
+                }
+                function handle_toggle_side_bar_button(e){
+                        document.getElementById('menu_toggle_button').click()
+                        handle_toggle_side_bar(e);
+                }
+
+                function toggle_side_bar(pane, header, save) {
+                        let active = (pane.classList.contains('active'))
+                        if (active){
+                                disable_side_bar(pane, header, save);
+                        }
+                        else {
+                                enable_side_bar(pane, header, save);
+                        }
+                }
+                function enable_side_bar(pane, header, save){
+                        pane.classList.add('active');
+                        pane.removeEventListener('click', handle_toggle_side_bar);
+                        header.addEventListener('click', handle_toggle_side_bar);
+                        set_correct_header_symbol(header);
+                        if (save){ save_panel_folding_state(header, true) }
+                }
+                function disable_side_bar(pane, header, save){
+                        pane.classList.remove('active');
+                        pane.addEventListener('click', handle_toggle_side_bar);
+                        header.removeEventListener('click', handle_toggle_side_bar);
+                        set_correct_header_symbol(header);
+                        if (save){ save_panel_folding_state(header, false) }
+                }
+                function set_correct_header_symbol(header){
+                        let pane = header.parentElement;
+                        let symbol = [['>', '<'],['<', '>']]
+                        symbol = symbol[Number(header.classList.contains('right_pane_fold_header'))][Number(pane.classList.contains('active'))];
+                        console.log(symbol);
+                        header.innerHTML = symbol
+                        return header;
+                }
+                function panel_folding_get_panel_name(header){
+                        return ['left', 'right'][Number(header.classList.contains('right_pane_fold_header'))]
+                }
+                function save_panel_folding_state(header, active){
+                        ls_set('pane_folding_state_'+panel_folding_get_panel_name(header), Number(active));
+                }
+                function load_panel_folding_state(panel_name){
+                        val = ls_get('pane_folding_state_'+panel_name)
+                        if (!val){ return {'exists': false, 'value': null}}
+                        return {'exists': true, 'value': Boolean(Number(val))}
+                }
+                function set_pane_folding_start(left_header, right_header){
+                        // small screen = closed
+                        let right_pane_enabled = true;
+                        let left_pane_enabled = true;
+                        let w = window.visualViewport.width
+                        if (w < 1000){
+                                left_pane_enabled = false
+                        }
+                        if (w < 800){
+                                right_pane_enabled = false
+                        }
+
+                        // get saved values if present
+                        let rval = load_panel_folding_state('right')
+                        if (rval['exists']){
+                                right_pane_enabled = rval['value']
+                        }
+                        let lval = load_panel_folding_state('left')
+                        if (lval['exists']){
+                                left_pane_enabled = lval['value']
+                        }
+
+                        // default = enabled, so we only need to disable
+                        if (!left_pane_enabled){
+                                disable_side_bar(document.getElementById('left_pane'), document.getElementById('left_pane_fold_header'))
+                        }
+                        if (!right_pane_enabled){
+                                disable_side_bar(document.getElementById('right_pane'), document.getElementById('right_pane_fold_header'))
+                        }
+                }
+
+                function init_pane_folding(header){
+                        set_correct_header_symbol(header);
+                        header.addEventListener('click', handle_toggle_side_bar);
+                }
+                
+                
+                set_pane_folding_start()
+                init_pane_folding(document.getElementById('left_pane_fold_header'));
+                init_pane_folding(document.getElementById('right_pane_fold_header'));
+
+                document.getElementById('left_pane_toggle_nav').addEventListener('click', handle_toggle_side_bar_button);
+                document.getElementById('right_pane_toggle_nav').addEventListener('click', handle_toggle_side_bar_button);
+        </script>
+
+        <script src="/mhc1/obs.html/static/load_dirtree_footer.js" type="text/javascript"></script>
+
+        
+
+
+
+
+</body>
+</html>
