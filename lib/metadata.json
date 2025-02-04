@@ -1,6 +1,6 @@
 {
   "vaultName": "MHC1 Garden",
-  "lastExport": 1736909195902,
+  "lastExport": 1738712981673,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-light show-inline-title show-ribbon",
   "useCustomHeadContent": false,
@@ -12,6 +12,14 @@
     "assets/two-mile-tt.png",
     "crew-pt/2-mile-time-trial/2mi-results.md",
     "crew-pt/2-mile-time-trial/2mi-plan.md",
+    "crew-pt/workout-bank/aerobic/ability-run.md",
+    "crew-pt/workout-bank/strength/all-in-one.md",
+    "crew-pt/workout-bank/strength/leg-day.md",
+    "crew-pt/workout-bank/strength/pull-day.md",
+    "crew-pt/workout-bank/strength/push-day.md",
+    "crew-pt/workout-bank/work-capacity/emom-1.md",
+    "crew-pt/workout-bank/work-capacity/emom-2.md",
+    "crew-pt/workout-bank/workout-bank.md",
     "crew-pt/crew-pt.md",
     "crew-pt/mhc1-pt-proposal.md",
     "crew-pt/pt-log.md",
@@ -38,7 +46,7 @@
     "lib/fonts/52ac8f3034507f1d9e53.ttf",
     "lib/fonts/05b618077343fbbd92b7.ttf",
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
-    "lib/media/874d8b8e340f75575caa.svg",
+    "lib/media/6155340132a851f6089e.svg",
     "lib/html/file-tree.html",
     "lib/scripts/webpage.js",
     "lib/scripts/graph-view.js",
@@ -68,7 +76,7 @@
     "lib/fonts/52ac8f3034507f1d9e53.ttf",
     "lib/fonts/05b618077343fbbd92b7.ttf",
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
-    "lib/media/874d8b8e340f75575caa.svg",
+    "lib/media/6155340132a851f6089e.svg",
     "lib/html/file-tree.html",
     "lib/scripts/webpage.js",
     "lib/scripts/graph-view.js",
@@ -85,103 +93,103 @@
   ],
   "fileInfo": {
     "lib/media/two-mile-tt.png": {
-      "modifiedTime": 1736909195902,
+      "modifiedTime": 1738712981673,
       "sourceSize": 361207,
       "exportedPath": "lib/media/two-mile-tt.png",
       "dependencies": []
     },
     "lib/media/cucuzella-zones.png": {
-      "modifiedTime": 1736909195902,
+      "modifiedTime": 1738712981673,
       "sourceSize": 194802,
       "exportedPath": "lib/media/cucuzella-zones.png",
       "dependencies": []
     },
     "lib/media/sfra-curve.png": {
-      "modifiedTime": 1736909195902,
+      "modifiedTime": 1738712981673,
       "sourceSize": 20412,
       "exportedPath": "lib/media/sfra-curve.png",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1736909195902,
+      "modifiedTime": 1738712981673,
       "sourceSize": 23377,
       "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1736909195902,
+      "modifiedTime": 1738712981673,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1736909195902,
+      "modifiedTime": 1738712981673,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1736909195902,
+      "modifiedTime": 1738712981673,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1736909195902,
+      "modifiedTime": 1738712981673,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1736909195902,
+      "modifiedTime": 1738712981673,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1736909195902,
+      "modifiedTime": 1738712981673,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1736909195902,
+      "modifiedTime": 1738712981673,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1736909195902,
+      "modifiedTime": 1738712981673,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1736909195902,
+      "modifiedTime": 1738712981673,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1736909195902,
+      "modifiedTime": 1738712981673,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1736909195902,
+      "modifiedTime": 1738712981673,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1736909195902,
+      "modifiedTime": 1738712981673,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1736909195902,
+      "modifiedTime": 1738712981673,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
@@ -193,121 +201,121 @@
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1736909195902,
-      "sourceSize": 15887,
+      "modifiedTime": 1738712981673,
+      "sourceSize": 25897,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1736909195902,
+      "modifiedTime": 1738712981673,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/graph-view.js": {
-      "modifiedTime": 1736909195902,
+      "modifiedTime": 1738712981673,
       "sourceSize": 15519,
       "exportedPath": "lib/scripts/graph-view.js",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1736909195902,
+      "modifiedTime": 1738712981673,
       "sourceSize": 14021,
       "exportedPath": "lib/scripts/graph-wasm.js",
       "dependencies": []
     },
     "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1736909195902,
+      "modifiedTime": 1738712981673,
       "sourceSize": 5179,
       "exportedPath": "lib/scripts/graph-render-worker.js",
       "dependencies": []
     },
     "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1736909195902,
+      "modifiedTime": 1738712981673,
       "sourceSize": 29832,
       "exportedPath": "lib/scripts/tinycolor.js",
       "dependencies": []
     },
     "lib/scripts/pixi.js": {
-      "modifiedTime": 1736909195902,
+      "modifiedTime": 1738712981673,
       "sourceSize": 449509,
       "exportedPath": "lib/scripts/pixi.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1736909195902,
+      "modifiedTime": 1738712981673,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1736909195902,
+      "modifiedTime": 1738712981673,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/scripts/graph-data.js": {
-      "modifiedTime": 1736909195902,
-      "sourceSize": 924,
+      "modifiedTime": 1738712981673,
+      "sourceSize": 1578,
       "exportedPath": "lib/scripts/graph-data.js",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1736909195902,
-      "sourceSize": 131021,
+      "modifiedTime": 1738712981673,
+      "sourceSize": 137228,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1736909195902,
-      "sourceSize": 236,
+      "modifiedTime": 1738712981673,
+      "sourceSize": 262,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1736909195902,
+      "modifiedTime": 1738712981673,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
     },
     "index.md": {
-      "modifiedTime": 1736909195902,
+      "modifiedTime": 1738712981673,
       "sourceSize": 1056,
       "exportedPath": "index.html",
       "dependencies": []
     },
     "site-issues.md": {
-      "modifiedTime": 1736909195902,
+      "modifiedTime": 1738712981673,
       "sourceSize": 318,
       "exportedPath": "site-issues.html",
       "dependencies": []
     },
     "assets/cucuzella-zones.png": {
-      "modifiedTime": 1736909195902,
+      "modifiedTime": 1738712981673,
       "sourceSize": 194802,
       "exportedPath": "assets/cucuzella-zones.png",
       "dependencies": []
     },
     "assets/sfra-curve.png": {
-      "modifiedTime": 1736909195902,
+      "modifiedTime": 1738712981673,
       "sourceSize": 20412,
       "exportedPath": "assets/sfra-curve.png",
       "dependencies": []
     },
     "assets/two-mile-tt.png": {
-      "modifiedTime": 1736909195902,
+      "modifiedTime": 1738712981673,
       "sourceSize": 361207,
       "exportedPath": "assets/two-mile-tt.png",
       "dependencies": []
     },
     "crew-pt/2-mile-time-trial/2mi-results.md": {
-      "modifiedTime": 1736909195902,
+      "modifiedTime": 1738712981673,
       "sourceSize": 705,
       "exportedPath": "crew-pt/2-mile-time-trial/2mi-results.html",
       "dependencies": []
     },
     "crew-pt/2-mile-time-trial/2mi-plan.md": {
-      "modifiedTime": 1736909195902,
+      "modifiedTime": 1738712981673,
       "sourceSize": 1316,
       "exportedPath": "crew-pt/2-mile-time-trial/2mi-plan.html",
       "dependencies": [
@@ -315,13 +323,13 @@
       ]
     },
     "crew-pt/crew-pt.md": {
-      "modifiedTime": 1736909195902,
+      "modifiedTime": 1738712981673,
       "sourceSize": 2478,
       "exportedPath": "crew-pt/crew-pt.html",
       "dependencies": []
     },
     "crew-pt/mhc1-pt-proposal.md": {
-      "modifiedTime": 1736909195902,
+      "modifiedTime": 1738712981673,
       "sourceSize": 12503,
       "exportedPath": "crew-pt/mhc1-pt-proposal.html",
       "dependencies": [
@@ -330,39 +338,93 @@
       ]
     },
     "crew-pt/pt-log.md": {
-      "modifiedTime": 1736909195902,
-      "sourceSize": 2467,
+      "modifiedTime": 1738712981673,
+      "sourceSize": 2799,
       "exportedPath": "crew-pt/pt-log.html",
       "dependencies": []
     },
     "projects/bull-run.md": {
-      "modifiedTime": 1736909195902,
+      "modifiedTime": 1738712981673,
       "sourceSize": 279,
       "exportedPath": "projects/bull-run.html",
       "dependencies": []
     },
     "projects/oakland.md": {
-      "modifiedTime": 1736909195902,
+      "modifiedTime": 1738712981673,
       "sourceSize": 336,
       "exportedPath": "projects/oakland.html",
       "dependencies": []
     },
     "palisades-log.md": {
-      "modifiedTime": 1736909195902,
+      "modifiedTime": 1738712981673,
       "sourceSize": 4885,
       "exportedPath": "palisades-log.html",
       "dependencies": []
     },
     "assets/palisades-branch-x-iap-map-20250113.pdf": {
-      "modifiedTime": 1736909195902,
+      "modifiedTime": 1738712981673,
       "sourceSize": 2339886,
       "exportedPath": "assets/palisades-branch-x-iap-map-20250113.pdf",
       "dependencies": []
     },
     "projects/sanborn.md": {
-      "modifiedTime": 1736909195902,
+      "modifiedTime": 1738712981673,
       "sourceSize": 148,
       "exportedPath": "projects/sanborn.html",
+      "dependencies": []
+    },
+    "crew-pt/workout-bank/aerobic/ability-run.md": {
+      "modifiedTime": 1738712981673,
+      "sourceSize": 832,
+      "exportedPath": "crew-pt/workout-bank/aerobic/ability-run.html",
+      "dependencies": []
+    },
+    "crew-pt/workout-bank/strength/all-in-one.md": {
+      "modifiedTime": 1738712981673,
+      "sourceSize": 486,
+      "exportedPath": "crew-pt/workout-bank/strength/all-in-one.html",
+      "dependencies": []
+    },
+    "crew-pt/workout-bank/strength/leg-day.md": {
+      "modifiedTime": 1738712981673,
+      "sourceSize": 23,
+      "exportedPath": "crew-pt/workout-bank/strength/leg-day.html",
+      "dependencies": []
+    },
+    "crew-pt/workout-bank/strength/pull-day.md": {
+      "modifiedTime": 1738712981673,
+      "sourceSize": 24,
+      "exportedPath": "crew-pt/workout-bank/strength/pull-day.html",
+      "dependencies": []
+    },
+    "crew-pt/workout-bank/strength/push-day.md": {
+      "modifiedTime": 1738712981673,
+      "sourceSize": 587,
+      "exportedPath": "crew-pt/workout-bank/strength/push-day.html",
+      "dependencies": []
+    },
+    "crew-pt/workout-bank/work-capacity/emom-1.md": {
+      "modifiedTime": 1738712981673,
+      "sourceSize": 808,
+      "exportedPath": "crew-pt/workout-bank/work-capacity/emom-1.html",
+      "dependencies": []
+    },
+    "crew-pt/workout-bank/work-capacity/emom-2.md": {
+      "modifiedTime": 1738712981673,
+      "sourceSize": 567,
+      "exportedPath": "crew-pt/workout-bank/work-capacity/emom-2.html",
+      "dependencies": []
+    },
+    "crew-pt/workout-bank/workout-bank.md": {
+      "modifiedTime": 1738712981673,
+      "sourceSize": 249,
+      "exportedPath": "crew-pt/workout-bank/workout-bank.html",
+      "dependencies": []
+    },
+    "lib/media/6155340132a851f6089e.svg": {
+      "modifiedTime": 1738712981673,
+      "sourceSize": 315,
+      "exportedPath": "lib/media/6155340132a851f6089e.svg",
       "dependencies": []
     }
   }
