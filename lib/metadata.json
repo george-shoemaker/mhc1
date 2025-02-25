@@ -1,6 +1,6 @@
 {
   "vaultName": "MHC1 Garden",
-  "lastExport": 1739908719818,
+  "lastExport": 1740517418994,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-light show-inline-title show-ribbon",
   "useCustomHeadContent": false,
@@ -25,6 +25,8 @@
     "crew-pt/crew-pt.md",
     "crew-pt/mhc1-pt-proposal.md",
     "crew-pt/pt-log.md",
+    "knowledge/military/clearing-a-room.md",
+    "knowledge/military/d-and-c-basic-movements.md",
     "knowledge/radios/radio-clone-instructions.md",
     "knowledge/radios/radio-questions.md",
     "knowledge/radios/radios-bkr-5000.md",
@@ -33,56 +35,7 @@
     "projects/oakland.md",
     "projects/sanborn.md",
     "projects/sanborn (gs-nano-fedora's conflicted copy 2025-02-18).md",
-    "wip/Relative Humidity Calculator_files/_app-e01c66da2d925400.js",
-    "wip/Relative Humidity Calculator_files/_buildManifest.js",
-    "wip/Relative Humidity Calculator_files/_ssgManifest.js",
-    "wip/Relative Humidity Calculator_files/[calculator]-e0cbeb5588ca8bd1.js",
-    "wip/Relative Humidity Calculator_files/4017.7e817f26eb5ddd97.js",
-    "wip/Relative Humidity Calculator_files/5258.ada0874fe65277d6.js",
-    "wip/Relative Humidity Calculator_files/7797-8710a2a7b1387250.js",
-    "wip/Relative Humidity Calculator_files/9096.c5f8291a38ec1ed0.js",
-    "wip/Relative Humidity Calculator_files/12480-376e5499c3379aa8.js",
-    "wip/Relative Humidity Calculator_files/15439.9e7010b1ab5f435d.js",
-    "wip/Relative Humidity Calculator_files/16690.c695d13e5c496090.js",
-    "wip/Relative Humidity Calculator_files/24018.39bec74005765d8a.js",
-    "wip/Relative Humidity Calculator_files/34470.422247ee4df2845d.js",
-    "wip/Relative Humidity Calculator_files/37398.9849d53e9671e4f4.js",
-    "wip/Relative Humidity Calculator_files/37466.1443919c2c7370be.js",
-    "wip/Relative Humidity Calculator_files/39317-c2b2fb9e4c5ed105.js",
-    "wip/Relative Humidity Calculator_files/41166.838d6dc1514faa66.js",
-    "wip/Relative Humidity Calculator_files/49428.ef8100344457307c.js",
-    "wip/Relative Humidity Calculator_files/52269.93b9ee4d030b74ea.js",
-    "wip/Relative Humidity Calculator_files/54297-8085590d596645a3.js",
-    "wip/Relative Humidity Calculator_files/60103.3ca0555185902049.js",
-    "wip/Relative Humidity Calculator_files/63957-8a8238973e074afc.js",
-    "wip/Relative Humidity Calculator_files/65989.baa42c2cfc8c21cc.js",
-    "wip/Relative Humidity Calculator_files/68069-1257bc4745e8a7f5.js",
-    "wip/Relative Humidity Calculator_files/82552-6508b65ff2f4e24a.js",
-    "wip/Relative Humidity Calculator_files/82938.bd40a0430a5ca658.js",
-    "wip/Relative Humidity Calculator_files/83370.634990d43a92b12e.js",
-    "wip/Relative Humidity Calculator_files/86502-3407944626f275f9.js",
-    "wip/Relative Humidity Calculator_files/90114.bc48f5f3d4c89dc6.js",
-    "wip/Relative Humidity Calculator_files/91620-a7cf8f4fb03001d8.js",
-    "wip/Relative Humidity Calculator_files/93618.2be11f9794897a37.js",
-    "wip/Relative Humidity Calculator_files/95376.db86c29c5b8df1c1.js",
-    "wip/Relative Humidity Calculator_files/96582-d039c02d7c69539c.js",
-    "wip/Relative Humidity Calculator_files/a.html",
-    "wip/Relative Humidity Calculator_files/calculator-54a43767326d0041.js",
-    "wip/Relative Humidity Calculator_files/d8cc0e0c1d8293bb.css",
-    "wip/Relative Humidity Calculator_files/main-6eb7527b5985931d.js",
-    "wip/Relative Humidity Calculator_files/polyfills-42372ed130431b0a.js",
-    "wip/Relative Humidity Calculator_files/webpack-99ace35ad9cf9986.js",
-    "wip/03-01_508.pdf",
-    "wip/Dew Point vs Humidity.md",
-    "wip/How Does Humidity Affect a Fire - WFCA.md",
-    "wip/Humidity.md",
-    "wip/Measuring humidity with a sling psychrometer.md",
-    "wip/Relative Humidity Calculator.html",
-    "wip/Relative Humidity Calculator.md",
-    "wip/rh.md",
-    "wip/wet-bulb-calc.png",
     "index.md",
-    "index (gs-nano-fedora's conflicted copy 2025-02-18).md",
     "palisades-log.md",
     "site-issues.md",
     "lib/media/two-mile-tt.png",
@@ -149,103 +102,103 @@
   ],
   "fileInfo": {
     "lib/media/two-mile-tt.png": {
-      "modifiedTime": 1739908719818,
+      "modifiedTime": 1740517418994,
       "sourceSize": 361207,
       "exportedPath": "lib/media/two-mile-tt.png",
       "dependencies": []
     },
     "lib/media/cucuzella-zones.png": {
-      "modifiedTime": 1739908719818,
+      "modifiedTime": 1740517418994,
       "sourceSize": 194802,
       "exportedPath": "lib/media/cucuzella-zones.png",
       "dependencies": []
     },
     "lib/media/sfra-curve.png": {
-      "modifiedTime": 1739908719818,
+      "modifiedTime": 1740517418994,
       "sourceSize": 20412,
       "exportedPath": "lib/media/sfra-curve.png",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1739908719818,
+      "modifiedTime": 1740517418994,
       "sourceSize": 23377,
       "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1739908719818,
+      "modifiedTime": 1740517418994,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1739908719818,
+      "modifiedTime": 1740517418994,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1739908719818,
+      "modifiedTime": 1740517418994,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1739908719818,
+      "modifiedTime": 1740517418994,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1739908719818,
+      "modifiedTime": 1740517418994,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1739908719818,
+      "modifiedTime": 1740517418994,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1739908719818,
+      "modifiedTime": 1740517418994,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1739908719818,
+      "modifiedTime": 1740517418994,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1739908719818,
+      "modifiedTime": 1740517418994,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1739908719818,
+      "modifiedTime": 1740517418994,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1739908719818,
+      "modifiedTime": 1740517418994,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1739908719818,
+      "modifiedTime": 1740517418994,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1739908719818,
+      "modifiedTime": 1740517418994,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
@@ -257,115 +210,115 @@
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1739908719818,
-      "sourceSize": 72741,
+      "modifiedTime": 1740517418994,
+      "sourceSize": 35668,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1739908719818,
+      "modifiedTime": 1740517418994,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/graph-view.js": {
-      "modifiedTime": 1739908719818,
+      "modifiedTime": 1740517418994,
       "sourceSize": 15519,
       "exportedPath": "lib/scripts/graph-view.js",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1739908719818,
+      "modifiedTime": 1740517418994,
       "sourceSize": 14021,
       "exportedPath": "lib/scripts/graph-wasm.js",
       "dependencies": []
     },
     "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1739908719818,
+      "modifiedTime": 1740517418994,
       "sourceSize": 5179,
       "exportedPath": "lib/scripts/graph-render-worker.js",
       "dependencies": []
     },
     "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1739908719818,
+      "modifiedTime": 1740517418994,
       "sourceSize": 29832,
       "exportedPath": "lib/scripts/tinycolor.js",
       "dependencies": []
     },
     "lib/scripts/pixi.js": {
-      "modifiedTime": 1739908719818,
+      "modifiedTime": 1740517418994,
       "sourceSize": 449509,
       "exportedPath": "lib/scripts/pixi.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1739908719818,
+      "modifiedTime": 1740517418994,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1739908719818,
+      "modifiedTime": 1740517418994,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/scripts/graph-data.js": {
-      "modifiedTime": 1739908719818,
-      "sourceSize": 2415,
+      "modifiedTime": 1740517418994,
+      "sourceSize": 2078,
       "exportedPath": "lib/scripts/graph-data.js",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1739908719818,
+      "modifiedTime": 1740517418994,
       "sourceSize": 137305,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1739908719818,
+      "modifiedTime": 1740517418994,
       "sourceSize": 262,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1739908719818,
+      "modifiedTime": 1740517418994,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
     },
     "index.md": {
-      "modifiedTime": 1739908719818,
-      "sourceSize": 1279,
+      "modifiedTime": 1740517418994,
+      "sourceSize": 1094,
       "exportedPath": "index.html",
       "dependencies": []
     },
     "site-issues.md": {
-      "modifiedTime": 1739908719818,
+      "modifiedTime": 1740517418994,
       "sourceSize": 318,
       "exportedPath": "site-issues.html",
       "dependencies": []
     },
     "assets/cucuzella-zones.png": {
-      "modifiedTime": 1739908719818,
+      "modifiedTime": 1740517418994,
       "sourceSize": 194802,
       "exportedPath": "assets/cucuzella-zones.png",
       "dependencies": []
     },
     "assets/sfra-curve.png": {
-      "modifiedTime": 1739908719818,
+      "modifiedTime": 1740517418994,
       "sourceSize": 20412,
       "exportedPath": "assets/sfra-curve.png",
       "dependencies": []
     },
     "assets/two-mile-tt.png": {
-      "modifiedTime": 1739908719818,
+      "modifiedTime": 1740517418994,
       "sourceSize": 361207,
       "exportedPath": "assets/two-mile-tt.png",
       "dependencies": []
     },
     "crew-pt/2-mile-time-trial/2mi-plan.md": {
-      "modifiedTime": 1739908719818,
+      "modifiedTime": 1740517418994,
       "sourceSize": 1316,
       "exportedPath": "crew-pt/2-mile-time-trial/2mi-plan.html",
       "dependencies": [
@@ -373,13 +326,13 @@
       ]
     },
     "crew-pt/crew-pt.md": {
-      "modifiedTime": 1739908719818,
+      "modifiedTime": 1740517418994,
       "sourceSize": 2568,
       "exportedPath": "crew-pt/crew-pt.html",
       "dependencies": []
     },
     "crew-pt/mhc1-pt-proposal.md": {
-      "modifiedTime": 1739908719818,
+      "modifiedTime": 1740517418994,
       "sourceSize": 12503,
       "exportedPath": "crew-pt/mhc1-pt-proposal.html",
       "dependencies": [
@@ -388,133 +341,133 @@
       ]
     },
     "crew-pt/pt-log.md": {
-      "modifiedTime": 1739908719818,
-      "sourceSize": 4033,
+      "modifiedTime": 1740517418994,
+      "sourceSize": 5102,
       "exportedPath": "crew-pt/pt-log.html",
       "dependencies": []
     },
     "projects/bull-run.md": {
-      "modifiedTime": 1739908719818,
+      "modifiedTime": 1740517418994,
       "sourceSize": 279,
       "exportedPath": "projects/bull-run.html",
       "dependencies": []
     },
     "projects/oakland.md": {
-      "modifiedTime": 1739908719818,
+      "modifiedTime": 1740517418994,
       "sourceSize": 336,
       "exportedPath": "projects/oakland.html",
       "dependencies": []
     },
     "palisades-log.md": {
-      "modifiedTime": 1739908719818,
+      "modifiedTime": 1740517418994,
       "sourceSize": 5038,
       "exportedPath": "palisades-log.html",
       "dependencies": []
     },
     "assets/palisades-branch-x-iap-map-20250113.pdf": {
-      "modifiedTime": 1739908719818,
+      "modifiedTime": 1740517418994,
       "sourceSize": 2339886,
       "exportedPath": "assets/palisades-branch-x-iap-map-20250113.pdf",
       "dependencies": []
     },
     "projects/sanborn.md": {
-      "modifiedTime": 1739908719818,
+      "modifiedTime": 1740517418994,
       "sourceSize": 148,
       "exportedPath": "projects/sanborn.html",
       "dependencies": []
     },
     "crew-pt/workout-bank/aerobic/ability-run.md": {
-      "modifiedTime": 1739908719818,
+      "modifiedTime": 1740517418994,
       "sourceSize": 832,
       "exportedPath": "crew-pt/workout-bank/aerobic/ability-run.html",
       "dependencies": []
     },
     "crew-pt/workout-bank/strength/all-in-one.md": {
-      "modifiedTime": 1739908719818,
+      "modifiedTime": 1740517418994,
       "sourceSize": 486,
       "exportedPath": "crew-pt/workout-bank/strength/all-in-one.html",
       "dependencies": []
     },
     "crew-pt/workout-bank/strength/leg-day.md": {
-      "modifiedTime": 1739908719818,
+      "modifiedTime": 1740517418994,
       "sourceSize": 23,
       "exportedPath": "crew-pt/workout-bank/strength/leg-day.html",
       "dependencies": []
     },
     "crew-pt/workout-bank/strength/pull-day.md": {
-      "modifiedTime": 1739908719818,
+      "modifiedTime": 1740517418994,
       "sourceSize": 555,
       "exportedPath": "crew-pt/workout-bank/strength/pull-day.html",
       "dependencies": []
     },
     "crew-pt/workout-bank/strength/push-day.md": {
-      "modifiedTime": 1739908719818,
+      "modifiedTime": 1740517418994,
       "sourceSize": 587,
       "exportedPath": "crew-pt/workout-bank/strength/push-day.html",
       "dependencies": []
     },
     "crew-pt/workout-bank/work-capacity/emom-1.md": {
-      "modifiedTime": 1739908719818,
+      "modifiedTime": 1740517418994,
       "sourceSize": 504,
       "exportedPath": "crew-pt/workout-bank/work-capacity/emom-1.html",
       "dependencies": []
     },
     "crew-pt/workout-bank/work-capacity/emom-2.md": {
-      "modifiedTime": 1739908719818,
+      "modifiedTime": 1740517418994,
       "sourceSize": 583,
       "exportedPath": "crew-pt/workout-bank/work-capacity/emom-2.html",
       "dependencies": []
     },
     "crew-pt/workout-bank/workout-bank.md": {
-      "modifiedTime": 1739908719818,
+      "modifiedTime": 1740517418994,
       "sourceSize": 249,
       "exportedPath": "crew-pt/workout-bank/workout-bank.html",
       "dependencies": []
     },
     "lib/media/6155340132a851f6089e.svg": {
-      "modifiedTime": 1739908719818,
+      "modifiedTime": 1740517418994,
       "sourceSize": 315,
       "exportedPath": "lib/media/6155340132a851f6089e.svg",
       "dependencies": []
     },
     "crew-pt/workout-bank/work-capacity/emom-music.md": {
-      "modifiedTime": 1739908719818,
+      "modifiedTime": 1740517418994,
       "sourceSize": 199,
       "exportedPath": "crew-pt/workout-bank/work-capacity/emom-music.html",
       "dependencies": []
     },
     "knowledge/radios/radio-clone-instructions.md": {
-      "modifiedTime": 1739908719818,
-      "sourceSize": 1128,
+      "modifiedTime": 1740517418994,
+      "sourceSize": 1148,
       "exportedPath": "knowledge/radios/radio-clone-instructions.html",
       "dependencies": []
     },
     "knowledge/radios/radio-questions.md": {
-      "modifiedTime": 1739908719818,
+      "modifiedTime": 1740517418994,
       "sourceSize": 3293,
       "exportedPath": "knowledge/radios/radio-questions.html",
       "dependencies": []
     },
     "knowledge/radios/radios-bkr-5000.md": {
-      "modifiedTime": 1739908719818,
+      "modifiedTime": 1740517418994,
       "sourceSize": 616,
       "exportedPath": "knowledge/radios/radios-bkr-5000.html",
       "dependencies": []
     },
     "knowledge/radios/scu-bkr-5000-radio-guide.pdf": {
-      "modifiedTime": 1739908719818,
+      "modifiedTime": 1740517418994,
       "sourceSize": 601606,
       "exportedPath": "knowledge/radios/scu-bkr-5000-radio-guide.pdf",
       "dependencies": []
     },
     "crew-pt/2-mile-time-trial/2mi-results-jan2025.md": {
-      "modifiedTime": 1739908719818,
+      "modifiedTime": 1740517418994,
       "sourceSize": 715,
       "exportedPath": "crew-pt/2-mile-time-trial/2mi-results-jan2025.html",
       "dependencies": []
     },
     "crew-pt/2-mile-time-trial/2mi-course.md": {
-      "modifiedTime": 1739908719818,
+      "modifiedTime": 1740517418994,
       "sourceSize": 1319,
       "exportedPath": "crew-pt/2-mile-time-trial/2mi-course.html",
       "dependencies": [
@@ -522,303 +475,21 @@
       ]
     },
     "projects/sanborn (gs-nano-fedora's conflicted copy 2025-02-18).md": {
-      "modifiedTime": 1739908719818,
+      "modifiedTime": 1740517418994,
       "sourceSize": 255,
       "exportedPath": "projects/sanborn-(gs-nano-fedora's-conflicted-copy-2025-02-18).html",
       "dependencies": []
     },
-    "wip/Relative Humidity Calculator_files/_app-e01c66da2d925400.js": {
-      "modifiedTime": 1739908719818,
-      "sourceSize": 980236,
-      "exportedPath": "wip/relative-humidity-calculator_files/_app-e01c66da2d925400.js",
+    "knowledge/military/clearing-a-room.md": {
+      "modifiedTime": 1740517418994,
+      "sourceSize": 1275,
+      "exportedPath": "knowledge/military/clearing-a-room.html",
       "dependencies": []
     },
-    "wip/Relative Humidity Calculator_files/_buildManifest.js": {
-      "modifiedTime": 1739908719818,
-      "sourceSize": 2395,
-      "exportedPath": "wip/relative-humidity-calculator_files/_buildmanifest.js",
-      "dependencies": []
-    },
-    "wip/Relative Humidity Calculator_files/_ssgManifest.js": {
-      "modifiedTime": 1739908719818,
-      "sourceSize": 77,
-      "exportedPath": "wip/relative-humidity-calculator_files/_ssgmanifest.js",
-      "dependencies": []
-    },
-    "wip/Relative Humidity Calculator_files/[calculator]-e0cbeb5588ca8bd1.js": {
-      "modifiedTime": 1739908719818,
-      "sourceSize": 243167,
-      "exportedPath": "wip/relative-humidity-calculator_files/[calculator]-e0cbeb5588ca8bd1.js",
-      "dependencies": []
-    },
-    "wip/Relative Humidity Calculator_files/4017.7e817f26eb5ddd97.js": {
-      "modifiedTime": 1739908719818,
-      "sourceSize": 2478,
-      "exportedPath": "wip/relative-humidity-calculator_files/4017.7e817f26eb5ddd97.js",
-      "dependencies": []
-    },
-    "wip/Relative Humidity Calculator_files/5258.ada0874fe65277d6.js": {
-      "modifiedTime": 1739908719818,
-      "sourceSize": 3379,
-      "exportedPath": "wip/relative-humidity-calculator_files/5258.ada0874fe65277d6.js",
-      "dependencies": []
-    },
-    "wip/Relative Humidity Calculator_files/7797-8710a2a7b1387250.js": {
-      "modifiedTime": 1739908719818,
-      "sourceSize": 24605,
-      "exportedPath": "wip/relative-humidity-calculator_files/7797-8710a2a7b1387250.js",
-      "dependencies": []
-    },
-    "wip/Relative Humidity Calculator_files/9096.c5f8291a38ec1ed0.js": {
-      "modifiedTime": 1739908719818,
-      "sourceSize": 2826,
-      "exportedPath": "wip/relative-humidity-calculator_files/9096.c5f8291a38ec1ed0.js",
-      "dependencies": []
-    },
-    "wip/Relative Humidity Calculator_files/12480-376e5499c3379aa8.js": {
-      "modifiedTime": 1739908719818,
-      "sourceSize": 63034,
-      "exportedPath": "wip/relative-humidity-calculator_files/12480-376e5499c3379aa8.js",
-      "dependencies": []
-    },
-    "wip/Relative Humidity Calculator_files/15439.9e7010b1ab5f435d.js": {
-      "modifiedTime": 1739908719818,
-      "sourceSize": 2422,
-      "exportedPath": "wip/relative-humidity-calculator_files/15439.9e7010b1ab5f435d.js",
-      "dependencies": []
-    },
-    "wip/Relative Humidity Calculator_files/16690.c695d13e5c496090.js": {
-      "modifiedTime": 1739908719818,
-      "sourceSize": 1729,
-      "exportedPath": "wip/relative-humidity-calculator_files/16690.c695d13e5c496090.js",
-      "dependencies": []
-    },
-    "wip/Relative Humidity Calculator_files/24018.39bec74005765d8a.js": {
-      "modifiedTime": 1739908719818,
-      "sourceSize": 2630,
-      "exportedPath": "wip/relative-humidity-calculator_files/24018.39bec74005765d8a.js",
-      "dependencies": []
-    },
-    "wip/Relative Humidity Calculator_files/34470.422247ee4df2845d.js": {
-      "modifiedTime": 1739908719818,
-      "sourceSize": 2977,
-      "exportedPath": "wip/relative-humidity-calculator_files/34470.422247ee4df2845d.js",
-      "dependencies": []
-    },
-    "wip/Relative Humidity Calculator_files/37398.9849d53e9671e4f4.js": {
-      "modifiedTime": 1739908719818,
-      "sourceSize": 2547,
-      "exportedPath": "wip/relative-humidity-calculator_files/37398.9849d53e9671e4f4.js",
-      "dependencies": []
-    },
-    "wip/Relative Humidity Calculator_files/37466.1443919c2c7370be.js": {
-      "modifiedTime": 1739908719818,
-      "sourceSize": 3128,
-      "exportedPath": "wip/relative-humidity-calculator_files/37466.1443919c2c7370be.js",
-      "dependencies": []
-    },
-    "wip/Relative Humidity Calculator_files/39317-c2b2fb9e4c5ed105.js": {
-      "modifiedTime": 1739908719818,
-      "sourceSize": 524861,
-      "exportedPath": "wip/relative-humidity-calculator_files/39317-c2b2fb9e4c5ed105.js",
-      "dependencies": []
-    },
-    "wip/Relative Humidity Calculator_files/41166.838d6dc1514faa66.js": {
-      "modifiedTime": 1739908719818,
-      "sourceSize": 3611,
-      "exportedPath": "wip/relative-humidity-calculator_files/41166.838d6dc1514faa66.js",
-      "dependencies": []
-    },
-    "wip/Relative Humidity Calculator_files/49428.ef8100344457307c.js": {
-      "modifiedTime": 1739908719818,
-      "sourceSize": 3526,
-      "exportedPath": "wip/relative-humidity-calculator_files/49428.ef8100344457307c.js",
-      "dependencies": []
-    },
-    "wip/Relative Humidity Calculator_files/52269.93b9ee4d030b74ea.js": {
-      "modifiedTime": 1739908719818,
-      "sourceSize": 5619,
-      "exportedPath": "wip/relative-humidity-calculator_files/52269.93b9ee4d030b74ea.js",
-      "dependencies": []
-    },
-    "wip/Relative Humidity Calculator_files/54297-8085590d596645a3.js": {
-      "modifiedTime": 1739908719818,
-      "sourceSize": 782988,
-      "exportedPath": "wip/relative-humidity-calculator_files/54297-8085590d596645a3.js",
-      "dependencies": []
-    },
-    "wip/Relative Humidity Calculator_files/60103.3ca0555185902049.js": {
-      "modifiedTime": 1739908719818,
-      "sourceSize": 6650,
-      "exportedPath": "wip/relative-humidity-calculator_files/60103.3ca0555185902049.js",
-      "dependencies": []
-    },
-    "wip/Relative Humidity Calculator_files/63957-8a8238973e074afc.js": {
-      "modifiedTime": 1739908719818,
-      "sourceSize": 10448,
-      "exportedPath": "wip/relative-humidity-calculator_files/63957-8a8238973e074afc.js",
-      "dependencies": []
-    },
-    "wip/Relative Humidity Calculator_files/65989.baa42c2cfc8c21cc.js": {
-      "modifiedTime": 1739908719818,
-      "sourceSize": 2241,
-      "exportedPath": "wip/relative-humidity-calculator_files/65989.baa42c2cfc8c21cc.js",
-      "dependencies": []
-    },
-    "wip/Relative Humidity Calculator_files/68069-1257bc4745e8a7f5.js": {
-      "modifiedTime": 1739908719818,
-      "sourceSize": 65478,
-      "exportedPath": "wip/relative-humidity-calculator_files/68069-1257bc4745e8a7f5.js",
-      "dependencies": []
-    },
-    "wip/Relative Humidity Calculator_files/82552-6508b65ff2f4e24a.js": {
-      "modifiedTime": 1739908719818,
-      "sourceSize": 9223,
-      "exportedPath": "wip/relative-humidity-calculator_files/82552-6508b65ff2f4e24a.js",
-      "dependencies": []
-    },
-    "wip/Relative Humidity Calculator_files/82938.bd40a0430a5ca658.js": {
-      "modifiedTime": 1739908719818,
-      "sourceSize": 2613,
-      "exportedPath": "wip/relative-humidity-calculator_files/82938.bd40a0430a5ca658.js",
-      "dependencies": []
-    },
-    "wip/Relative Humidity Calculator_files/83370.634990d43a92b12e.js": {
-      "modifiedTime": 1739908719818,
-      "sourceSize": 8390,
-      "exportedPath": "wip/relative-humidity-calculator_files/83370.634990d43a92b12e.js",
-      "dependencies": []
-    },
-    "wip/Relative Humidity Calculator_files/86502-3407944626f275f9.js": {
-      "modifiedTime": 1739908719818,
-      "sourceSize": 9148,
-      "exportedPath": "wip/relative-humidity-calculator_files/86502-3407944626f275f9.js",
-      "dependencies": []
-    },
-    "wip/Relative Humidity Calculator_files/90114.bc48f5f3d4c89dc6.js": {
-      "modifiedTime": 1739908719818,
-      "sourceSize": 2835,
-      "exportedPath": "wip/relative-humidity-calculator_files/90114.bc48f5f3d4c89dc6.js",
-      "dependencies": []
-    },
-    "wip/Relative Humidity Calculator_files/91620-a7cf8f4fb03001d8.js": {
-      "modifiedTime": 1739908719818,
-      "sourceSize": 23044,
-      "exportedPath": "wip/relative-humidity-calculator_files/91620-a7cf8f4fb03001d8.js",
-      "dependencies": []
-    },
-    "wip/Relative Humidity Calculator_files/93618.2be11f9794897a37.js": {
-      "modifiedTime": 1739908719818,
-      "sourceSize": 1305,
-      "exportedPath": "wip/relative-humidity-calculator_files/93618.2be11f9794897a37.js",
-      "dependencies": []
-    },
-    "wip/Relative Humidity Calculator_files/95376.db86c29c5b8df1c1.js": {
-      "modifiedTime": 1739908719818,
-      "sourceSize": 2114,
-      "exportedPath": "wip/relative-humidity-calculator_files/95376.db86c29c5b8df1c1.js",
-      "dependencies": []
-    },
-    "wip/Relative Humidity Calculator_files/96582-d039c02d7c69539c.js": {
-      "modifiedTime": 1739908719818,
-      "sourceSize": 35165,
-      "exportedPath": "wip/relative-humidity-calculator_files/96582-d039c02d7c69539c.js",
-      "dependencies": []
-    },
-    "wip/Relative Humidity Calculator_files/a.html": {
-      "modifiedTime": 1739908719818,
-      "sourceSize": 107,
-      "exportedPath": "wip/relative-humidity-calculator_files/a.html",
-      "dependencies": []
-    },
-    "wip/Relative Humidity Calculator_files/calculator-54a43767326d0041.js": {
-      "modifiedTime": 1739908719818,
-      "sourceSize": 1409988,
-      "exportedPath": "wip/relative-humidity-calculator_files/calculator-54a43767326d0041.js",
-      "dependencies": []
-    },
-    "wip/Relative Humidity Calculator_files/d8cc0e0c1d8293bb.css": {
-      "modifiedTime": 1739908719818,
-      "sourceSize": 2224,
-      "exportedPath": "wip/relative-humidity-calculator_files/d8cc0e0c1d8293bb.css",
-      "dependencies": []
-    },
-    "wip/Relative Humidity Calculator_files/main-6eb7527b5985931d.js": {
-      "modifiedTime": 1739908719818,
-      "sourceSize": 268727,
-      "exportedPath": "wip/relative-humidity-calculator_files/main-6eb7527b5985931d.js",
-      "dependencies": []
-    },
-    "wip/Relative Humidity Calculator_files/polyfills-42372ed130431b0a.js": {
-      "modifiedTime": 1739908719818,
-      "sourceSize": 112594,
-      "exportedPath": "wip/relative-humidity-calculator_files/polyfills-42372ed130431b0a.js",
-      "dependencies": []
-    },
-    "wip/Relative Humidity Calculator_files/webpack-99ace35ad9cf9986.js": {
-      "modifiedTime": 1739908719818,
-      "sourceSize": 22085,
-      "exportedPath": "wip/relative-humidity-calculator_files/webpack-99ace35ad9cf9986.js",
-      "dependencies": []
-    },
-    "wip/03-01_508.pdf": {
-      "modifiedTime": 1739908719818,
-      "sourceSize": 430758,
-      "exportedPath": "wip/03-01_508.pdf",
-      "dependencies": []
-    },
-    "wip/Dew Point vs Humidity.md": {
-      "modifiedTime": 1739908719818,
-      "sourceSize": 1653,
-      "exportedPath": "wip/dew-point-vs-humidity.html",
-      "dependencies": []
-    },
-    "wip/How Does Humidity Affect a Fire - WFCA.md": {
-      "modifiedTime": 1739908719818,
-      "sourceSize": 3915,
-      "exportedPath": "wip/how-does-humidity-affect-a-fire-wfca.html",
-      "dependencies": []
-    },
-    "wip/Humidity.md": {
-      "modifiedTime": 1739908719818,
-      "sourceSize": 85817,
-      "exportedPath": "wip/humidity.html",
-      "dependencies": []
-    },
-    "wip/Measuring humidity with a sling psychrometer.md": {
-      "modifiedTime": 1739908719818,
-      "sourceSize": 5731,
-      "exportedPath": "wip/measuring-humidity-with-a-sling-psychrometer.html",
-      "dependencies": []
-    },
-    "wip/Relative Humidity Calculator.html": {
-      "modifiedTime": 1739908719818,
-      "sourceSize": 502100,
-      "exportedPath": "wip/relative-humidity-calculator.html",
-      "dependencies": []
-    },
-    "wip/Relative Humidity Calculator.md": {
-      "modifiedTime": 1739908719818,
-      "sourceSize": 6337,
-      "exportedPath": "wip/relative-humidity-calculator.html",
-      "dependencies": []
-    },
-    "wip/rh.md": {
-      "modifiedTime": 1739908719818,
-      "sourceSize": 122,
-      "exportedPath": "wip/rh.html",
-      "dependencies": []
-    },
-    "wip/wet-bulb-calc.png": {
-      "modifiedTime": 1739908719818,
-      "sourceSize": 19558,
-      "exportedPath": "wip/wet-bulb-calc.png",
-      "dependencies": []
-    },
-    "index (gs-nano-fedora's conflicted copy 2025-02-18).md": {
-      "modifiedTime": 1739908719818,
-      "sourceSize": 1094,
-      "exportedPath": "index-(gs-nano-fedora's-conflicted-copy-2025-02-18).html",
+    "knowledge/military/d-and-c-basic-movements.md": {
+      "modifiedTime": 1740517418994,
+      "sourceSize": 1267,
+      "exportedPath": "knowledge/military/d-and-c-basic-movements.html",
       "dependencies": []
     }
   }
